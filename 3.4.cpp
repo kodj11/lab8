@@ -17,7 +17,7 @@ void findMinMax(const T arr[], int size, T& min, T& max) {
         }
     }
 }
-// Сделаем поиск минимальной длины и максимальной длины
+// Г‘Г¤ГҐГ«Г ГҐГ¬ ГЇГ®ГЁГ±ГЄ Г¬ГЁГ­ГЁГ¬Г Г«ГјГ­Г®Г© Г¤Г«ГЁГ­Г» ГЁ Г¬Г ГЄГ±ГЁГ¬Г Г«ГјГ­Г®Г© Г¤Г«ГЁГ­Г»
 template < >
 void findMinMax<std::string>(const std::string arr[], int size, std::string& min, std::string& max) {
 
@@ -33,7 +33,7 @@ void findMinMax<std::string>(const std::string arr[], int size, std::string& min
         }
     }
 }
-// делаем поиск для векторов
+// Г¤ГҐГ«Г ГҐГ¬ ГЇГ®ГЁГ±ГЄ Г¤Г«Гї ГўГҐГЄГІГ®Г°Г®Гў
 template <typename T>
 void findMinMax(const std::vector<T> arr[], int size,
     std::vector<T>& min, std::vector<T>& max) {
